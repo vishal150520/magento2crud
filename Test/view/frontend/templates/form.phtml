@@ -1,0 +1,28 @@
+<?php
+
+// $data = $block->test();
+// echo $data;
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="<?php echo $this->getFormAction(); ?>">
+<!-- <form action="/Controller/index/submit.php"> -->
+  <label for="fname">Name:</label><br>
+  <input type="text" id="" name="name" value=""><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" id="" name="email" value=""><br><br>
+  <label for="lname">telephone:</label><br>
+  <input type="text" id="" name="telephone" value=""><br><br>
+  <input type="submit" value="Submit"><br><br>
+
+</form> 
+<a href="/test/index/showdata">View Data</a>
+</body>
+</html>
